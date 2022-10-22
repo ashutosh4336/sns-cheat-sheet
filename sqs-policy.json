@@ -1,0 +1,13 @@
+{
+  "Statement": [
+    {
+      "Sid": "Stmt1666418846120",
+      "Action": ["sqs:SendMessage"],
+      "Effect": "Allow",
+      "Resource": "arn:aws:sqs:ap-south-1:205453495251:TEST-QUEUE",
+      "Principal": {
+        "Service": "sns.amazonaws.com"
+      }
+    }
+  ]
+}
